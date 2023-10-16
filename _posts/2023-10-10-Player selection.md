@@ -1,0 +1,57 @@
+---
+toc: true
+comments: false
+layout: post
+title: Sample Daily Plan 
+description: Example Blog!!!  This shows planning and notes from hacks.
+type: plans
+courses: { compsci: {week: 6} }
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frog Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Select Your Frog</h1>
+    
+    <div class="Frog-slots">
+        <!-- Frog Slot 1 -->
+        <div class="Frog-slot">
+            <img src="images/1590814-grenouille-aux-levres-blanches-isole-sur-fond-blanc-gratuit-vectoriel-removebg-preview.png" alt="Frog 1">
+            <span>Frog 1</span>
+        </div>
+        
+        <!-- Frog Slot 2 -->
+        <div class="Frog-slot">
+            <img src="images/istockphoto-164433182-612x612-removebg-preview.png" alt="Frog 2">
+            <span>Frog 2</span>
+        </div>
+        
+          <!-- Frog Slot 3 -->
+          <div class="Frog-slot">
+            <img src="images/istockphoto-1310487897-612x612-removebg-preview.png" alt="Frog 3">
+            <span>Frog 3</span>
+        </div>
+
+                 <!-- Frog Slot 4 -->
+                 <div class="Frog-slot">
+                    <img src="images/pngtree-vector-illustration-of-the-cartoon-of-the-amphibian-frog-png-image_5076412-removebg-preview.png" alt="Frog 4">
+                    <span>Frog 4</span>
+                </div>
+        <!-- Add more Frog slots as needed -->
+    </div>
+    
+    <div class="Frog-info">
+        <!-- Frog Information Panel content will be populated dynamically via JavaScript -->
+    </div>
+    
+    <button class="confirm-button">Confirm</button>
+    <button class="cancel-button">Cancel</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
