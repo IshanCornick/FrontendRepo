@@ -3,13 +3,74 @@ layout: default
 title: Student Blog
 ---
 
+<title>Frog Information</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .frog-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .frog-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
 
-## Build you Home Page here 
-This is about your journey. Start now!!!
+<h1>Discover Amazing Frogs!</h1>
 
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
+<div>
+        <form action="/submit" method="post">
+            <button type="submit" class="frog-button">
+                <img src="https://inkart.net/wp-content/uploads/2020/12/ornate_horned_frog-1.jpg" alt="Ornate Horned Frog" class="frog-image" border="0" />
+                <br>
+                Ornate Horned Frog
+            </button>
+        </form>
+    </div>
 
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+<div>
+<form action="/submit" method="post">
+    <button type="button" class="frog-button" id="sumaco-horned-frog" onclick="redirectToMarkdown()">
+        <img src="https://i.etsystatic.com/44827699/r/il/c12059/5155904904/il_fullxfull.5155904904_8pwi.jpg" alt="Sumaco Horned Frog" class="frog-image" border="0" />
+        <br>
+        Sumaco Horned Frog
+    </button>
+</form>
+
+<script>
+    function redirectToMarkdown() {
+        window.location.href = '_posts/2023-10-10-Sumaco.md';
+    }
+</script>
+    </div>
+
+<div style="margin-top: 50px;">
+        <p>Here's a random quote:</p>
+        <blockquote style="font-style: italic;">
+            "In the frog's world, it's not easy being green." - Kermit the Frog
+        </blockquote>
+    </div>
+
+</body>
+</html>
+
