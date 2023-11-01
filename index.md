@@ -50,41 +50,52 @@ title: Student Blog
         <h1>Discover Amazing Frogs!</h1>
 
         <!-- Rest of your HTML content -->
+<div>
+    <form action="/submit" method="post">
+        <button type="button" class="frog-button" id="plains-leopard-frog" onclick="redirectToPlains()">
+            <img src="https://www.sdherps.org/media/206.jpg" alt="Plains Leopard Frog" class="frog-image" border="0" />
+            <br>
+            Plains Leopard Frog
+        </button>
+    </form>
+
+    <script>
+        function redirectToPlains() {
+            window.location.href = '/FrontendRepo/frog/Leopard';
+        }
+    </script>
+</div>
 
 <div>
-        <form action="/submit" method="post">
-            <button type="submit" class="frog-button" id="plains-leopard-frog"
-            onclick="redirectToMarkdown()">
-                <img src="https://www.sdherps.org/media/206.jpg" alt="Ornate Horned Frog" class="frog-image" border="0" />
-                <br>
-                Plains Leopard Frog
-            </button>
-        </form>
-    </div>
+    <form action="/submit" method="post">
+        <button type="button" class="frog-button" id="sumaco-horned-frog" onclick="redirectToSumaco()">
+            <img src="https://i.etsystatic.com/44827699/r/il/c12059/5155904904/il_fullxfull.5155904904_8pwi.jpg" alt="Sumaco Horned Frog" class="frog-image" border="0" />
+            <br>
+            Sumaco Horned Frog
+        </button>
+    </form>
+
+    <script>
+        function redirectToSumaco() {
+            window.location.href = '/FrontendRepo/frog/Sumaco';
+        }
+    </script>
+</div>
 
 <div>
-<form action="/submit" method="post">
-    <button type="button" class="frog-button" id="sumaco-horned-frog" onclick="redirectToMarkdown()">
-        <img src="https://i.etsystatic.com/44827699/r/il/c12059/5155904904/il_fullxfull.5155904904_8pwi.jpg" alt="Sumaco Horned Frog" class="frog-image" border="0" />
-        <br>
-        Sumaco Horned Frog
-    </button>
-</form>
+    <form action="/submit" method="post">
+        <button type="button" class="frog-button" id="peruvian-toad" onclick="redirectToPeruvian()">
+            <img src="https://i.etsystatic.com/41972288/r/il/8267a5/5235525500/il_1588xN.5235525500_1nen.jpg" alt="Peruvian Toad" class="frog-image" border="0" />
+            <br>
+            Peruvian Toad
+        </button>
+    </form>
 
-<div>
-<form action="/submit" method="post">
-    <button type="button" class="frog-button" id="peruvian-toad" onclick="redirectToMarkdown()">
-        <img src="https://i.etsystatic.com/41972288/r/il/8267a5/5235525500/il_1588xN.5235525500_1nen.jpg" alt="Sumaco Horned Frog" class="frog-image" border="0" />
-        <br>
-        Peruvian Toad
-    </button>
-</form>
-
-<script>
-    function redirectToMarkdown() {
-        window.location.href = '/FrontendRepo/frog/Sumaco';
-    }
-</script>
+    <script>
+        function redirectToPeruvian() {
+            window.location.href = '/FrontendRepo/frog/Peruvian';
+        }
+    </script>
 </div>
 
 
