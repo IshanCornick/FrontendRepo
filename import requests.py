@@ -1,3 +1,3 @@
 import requests
-result = requests.get("https://projectsailbackend.stu.nighthawkcodingsociety.com/")
+result = requests.get("http://0.0.0.0:8014")
 print(result.content)
