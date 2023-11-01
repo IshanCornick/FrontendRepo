@@ -3,6 +3,8 @@ layout: default
 title: Student Blog
 ---
 
+<<<<<<< HEAD
+=======
 <html>
 <head>
     <style>
@@ -48,6 +50,7 @@ title: Student Blog
     <!-- Create a container div to set the background color -->
     <div class="container">
         <h1>Discover Amazing Frogs!</h1>
+>>>>>>> 96075379f4e8f66dac74b57a961696da7cb2819b
 
         <!-- Rest of your HTML content -->
 <div>
