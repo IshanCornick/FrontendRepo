@@ -71,7 +71,7 @@ courses: { compsci: {week: 6} }
         // Data for frogs (replace with your own data)
         const frogs = [
             { name: "African Clawed Frog (Xenopus laevis)", image_url: "frog1.jpg" },
-            { name: "Red-Eyed Tree Frog", image_url: "tree_frog.jpg" },
+            { name: "Red-Eyed Tree Frog", image_url: "green-tree-frog.png" },
             { name: "Blue Poison Dart Frog", image_url: "dart_frog.jpg" },
             // Add more frog data here
         ];  
