@@ -31,7 +31,7 @@
 
    /* darkens the background color on hover to create a selecting effect */
   .button:hover {
-    background-color: #373737;
+    background-color: #b0dd93;
   }
 
   /* "row style" is flexible size and aligns pictures in center */
@@ -79,7 +79,7 @@
   /* styling for the calculator clear button */
   .calculator-clear {
     @extend .button;
-    background-color: #e68b1c;
+    background-color: #da8216;
   }
   
   /* styling for the calculator equals button */
