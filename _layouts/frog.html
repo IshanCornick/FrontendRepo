@@ -2,22 +2,28 @@
 layout: default
 title: Student Blog
 ---
-
 <title>Frog Information</title>
+
+<h1>Discover Amazing Frogs!</h1>
+
+<html lang="en-US">
+<head>
+    <!-- Your existing meta tags and script tags -->
+    <link rel="stylesheet" type="text/css" href="style.css">  
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 20px;
+            background-image: url('https://images2.alphacoders.com/128/1286679.jpg');
+            background-repeat: no-repeat;
+            background-size: cover ;
+            background-position: 45% 50%;
+            color: #003300;
         }
         h1 {
-            color: #4CAF50;
+            color: #898d0d;
         }
         .frog-button {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #be8c45;
+            color: rgb(210, 42, 42);
             padding: 10px 20px;
             border: none;
             cursor: pointer;
@@ -26,18 +32,17 @@ title: Student Blog
             border-radius: 5px;
         }
         .frog-image {
-            max-width: 100%;
-            height: auto;
-            max-height: 250px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 850px; /* Adjust the width as needed */
+            height: contain; /* Maintain aspect ratio */
         }
+        /* Additional CSS styles for frog-related elements */
+        /* Rest of your CSS */
     </style>
 </head>
-<body>
-
-<h1>Discover Amazing Frogs!</h1>
-
+<body id="frog">
+    <!-- Blog content -->
+  </body>
+    
 <div>
     <form action="/submit" method="post">
         <button type="button" class="frog-button" onclick="redirectToLeopard()">

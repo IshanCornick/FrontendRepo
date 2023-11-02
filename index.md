@@ -2,32 +2,23 @@
 layout: default
 title: Student Blog
 ---
-
-<<<<<<< HEAD
-=======
-<html>
+<html lang="en-US">
 <head>
+    <!-- Your existing meta tags and script tags -->
+    <link rel="stylesheet" type="text/css" href="style.css">  
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #C8E6C9
-            margin: 0;
-            padding: 10; /* Remove padding to cover the entire viewport */
+            background-image: url('https://images7.alphacoders.com/133/1334999.png');
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-color: #6BBE45;
+            color: #003300;
         }
-
-        /* Create a container div with a light green background */
-        .container {
-            background-color: #C8E6C9; /* Light green color code */
-            padding: 20px; /* Add padding to the container */
-        }
-
         h1 {
-            color: #4CAF50;
+            color: #FDE74C;
         }
-
         .frog-button {
-            background-color: #4CAF50;
+            background-color: #6BBE45;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -36,23 +27,19 @@ title: Student Blog
             font-size: 16px;
             border-radius: 5px;
         }
-
         .frog-image {
-            max-width: 100%;
-            height: auto;
-            max-height: 250px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 850px; /* Adjust the width as needed */
+            height: contain; /* Maintain aspect ratio */
         }
+        /* Additional CSS styles for frog-related elements */
+        /* Rest of your CSS */
     </style>
 </head>
-<body>
-    <!-- Create a container div to set the background color -->
-    <div class="container">
-        <h1>Discover Amazing Frogs!</h1>
->>>>>>> 96075379f4e8f66dac74b57a961696da7cb2819b
+<body id="index">
+  <!-- CompSci content -->
+</body>
+    <!-- Your existing HTML content with frog-themed enhancements -->
 
-        <!-- Rest of your HTML content -->
 <div>
     <form action="/submit" method="post">
         <button type="button" class="frog-button" id="plains-leopard-frog" onclick="redirectToPlains()">
@@ -101,11 +88,10 @@ title: Student Blog
     </script>
 </div>
 
-
 <div style="margin-top: 50px;">
         <p>Here's a random quote:</p>
         <blockquote style="font-style: italic;">
             "In the frog's world, it's not easy being green." - Kermit the Frog
         </blockquote>
     </div>
-<div>
+</html>
