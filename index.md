@@ -3,18 +3,27 @@ layout: default
 title: Student Blog
 ---
 
-<title>Frog Information</title>
+<html>
+<head>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             text-align: center;
-            background-color: #f7f7f7;
+            background-color: #C8E6C9
             margin: 0;
-            padding: 20px;
+            padding: 10; /* Remove padding to cover the entire viewport */
         }
+
+        /* Create a container div with a light green background */
+        .container {
+            background-color: #C8E6C9; /* Light green color code */
+            padding: 20px; /* Add padding to the container */
+        }
+
         h1 {
             color: #4CAF50;
         }
+
         .frog-button {
             background-color: #4CAF50;
             color: white;
@@ -25,6 +34,7 @@ title: Student Blog
             font-size: 16px;
             border-radius: 5px;
         }
+
         .frog-image {
             max-width: 100%;
             height: auto;
@@ -35,12 +45,15 @@ title: Student Blog
     </style>
 </head>
 <body>
+    <!-- Create a container div to set the background color -->
+    <div class="container">
+        <h1>Discover Amazing Frogs!</h1>
 
-<h1>Discover Amazing Frogs!</h1>
+        <!-- Rest of your HTML content -->
 
 <div>
         <form action="/submit" method="post">
-            <button type="submit" class="frog-button" id="ornate-horned-frog"
+            <button type="submit" class="frog-button" id="plains-leopard-frog"
             onclick="redirectToMarkdown()">
                 <img src="https://www.sdherps.org/media/206.jpg" alt="Ornate Horned Frog" class="frog-image" border="0" />
                 <br>
@@ -81,7 +94,4 @@ title: Student Blog
             "In the frog's world, it's not easy being green." - Kermit the Frog
         </blockquote>
     </div>
-
-</body>
-</html>
-
+<div>
