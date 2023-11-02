@@ -40,10 +40,11 @@ title: Student Blog
 
 <div>
         <form action="/submit" method="post">
-            <button type="submit" class="frog-button">
-                <img src="https://inkart.net/wp-content/uploads/2020/12/ornate_horned_frog-1.jpg" alt="Ornate Horned Frog" class="frog-image" border="0" />
+            <button type="submit" class="frog-button" id="ornate-horned-frog"
+            onclick="redirectToMarkdown()">
+                <img src="https://www.sdherps.org/media/206.jpg" alt="Ornate Horned Frog" class="frog-image" border="0" />
                 <br>
-                Ornate Horned Frog
+                Plains Leopard Frog
             </button>
         </form>
     </div>
@@ -57,12 +58,22 @@ title: Student Blog
     </button>
 </form>
 
+<div>
+<form action="/submit" method="post">
+    <button type="button" class="frog-button" id="peruvian-toad" onclick="redirectToMarkdown()">
+        <img src="https://i.etsystatic.com/41972288/r/il/8267a5/5235525500/il_1588xN.5235525500_1nen.jpg" alt="Sumaco Horned Frog" class="frog-image" border="0" />
+        <br>
+        Peruvian Toad
+    </button>
+</form>
+
 <script>
     function redirectToMarkdown() {
         window.location.href = '/FrontendRepo/frog/Sumaco';
     }
 </script>
-    </div>
+</div>
+
 
 <div style="margin-top: 50px;">
         <p>Here's a random quote:</p>
