@@ -3,38 +3,6 @@ layout: default
 title: Student Blog
 ---
 
-<title>Frog Information</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        .frog-button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            margin: 10px;
-            font-size: 16px;
-            border-radius: 5px;
-        }
-        .frog-image {
-            max-width: 100%;
-            height: auto;
-            max-height: 250px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
 
 <h1>Discover Amazing Frogs!</h1>
 
