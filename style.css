@@ -1,9 +1,9 @@
 h1 {
-    color: #d5ddd4; /* Yellow for headings */
+    color: #6cca5f; /* Yellow for headings */
 }
 
 .frog-button {
-    background-color: #b5e213; /* Light green for buttons */
+    background-color: #f5f5f3; /* Light green for buttons */
     color: rgb(237, 46, 46);
 }
 
@@ -15,6 +15,7 @@ body {
     /* background-color: #6BBE45; */ /* Comment out or remove this line */
     color: #b4ee8d;
 }
+
 /* Blog Section */
 #blogs {
     background-image: url('https://images2.alphacoders.com/128/1286679.jpg');
