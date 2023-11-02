@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: Flash cards to study frogs
+title: Flash cards to study
 description: Flash cards
 type: hacks
 courses: { compsci: {week: 6} }
