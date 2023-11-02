@@ -1,0 +1,124 @@
+h1 {
+    color: #6cca5f; /* Yellow for headings */
+}
+
+.frog-button {
+    background-color: #f5f5f3; /* Light green for buttons */
+    color: rgb(237, 46, 46);
+}
+
+body {
+    background-image: url('https://images6.alphacoders.com/118/1181896.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+    /* background-color: #6BBE45; */ /* Comment out or remove this line */
+    color: #b4ee8d;
+}
+
+/* Blog Section */
+#blogs {
+    background-image: url('https://images2.alphacoders.com/128/1286679.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:#f4fbf4;
+  }
+
+/* Target links in the "my-catalog" catalog */
+#blogs a {
+    color: #f4a30e; /* Change the color to red */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Style the links on hover (optional) */
+#blogs a:hover {
+    color: #4014c4; /* Change the color to green on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+  /* Frog Section */
+#frog {
+    background-image: url('https://images2.alphacoders.com/128/1286679.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+/* Target links in the "my-catalog" catalog */
+#frog a {
+    color: #881212; /* Change the color to red */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Style the links on hover (optional) */
+#frog a:hover {
+    color: #00FF00; /* Change the color to green on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+  
+  /* CompSci Section */
+#compsci {
+    background-image: url('https://images6.alphacoders.com/118/1181896.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #cdea12
+  }
+
+/* Target links in the "my-catalog" catalog */
+#compsci a {
+    color: #fcfcfc; /* Change the color to red */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Style the links on hover (optional) */
+#compsci a:hover {
+    color: #00FF00; /* Change the color to green on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+#help {
+    background-image: url('https://images3.alphacoders.com/128/1284356.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+/* Target links in the "my-catalog" catalog */
+#help a {
+    color: #e2f01f; /* Change the color to red */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Style the links on hover (optional) */
+#help a:hover {
+    color: #00FF00; /* Change the color to green on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+  /* Index Section */
+#index {
+    background-image: url('https://images7.alphacoders.com/133/1334999.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #b5d31d
+  }
+
+/* Target links in the "my-catalog" catalog */
+#index a {
+    color: #fcfcfc; /* Change the color to red */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Style the links on hover (optional) */
+#index a:hover {
+    color: #0d97d7; /* Change the color to green on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
