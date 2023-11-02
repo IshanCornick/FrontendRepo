@@ -17,3 +17,5 @@ title: Frog
 ## [Image-matching-game](https://ishancornick.github.io/FrontendRepo//2023/10/01/memory-game.html)
 # Flash cards to study your frogs!
 ## [Frog-flash-cards](https://ishancornick.github.io/FrontendRepo//2023/10/01/Flash-Cards.html)
+
+![Kermit](kermit.jpeg)
