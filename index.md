@@ -2,7 +2,6 @@
 layout: default
 title: Student Blog
 ---
-
 <html lang="en-US">
 <head>
     <!-- Your existing meta tags and script tags -->
@@ -67,7 +66,6 @@ title: Student Blog
     <body id="index">
       <!-- CompSci content -->
         <!-- Your existing HTML content with frog-themed enhancements -->
-
 <div>
         <form action="/submit" method="post">
             <button type="button" class="frog-button" id="plains-leopard-frog" onclick="redirectToPlains()">
@@ -76,14 +74,12 @@ title: Student Blog
                 Plains Leopard Frog
             </button>
         </form>
-
 <script>
             function redirectToPlains() {
                 window.location.href = '/FrontendRepo/frog/Leopard';
             }
         </script>
  </div>
-
 <div>
         <form action="/submit" method="post">
             <button type="button" class="frog-button" id="sumaco-horned-frog" onclick="redirectToSumaco()">
@@ -92,14 +88,12 @@ title: Student Blog
                 Sumaco Horned Frog
             </button>
         </form>
-
 <script>
             function redirectToSumaco() {
                 window.location.href = '/FrontendRepo/frog/Sumaco';
             }
         </script>
 </div>
-
 <div>
         <form action="/submit" method="post">
             <button type="button" class="frog-button" id="peruvian-toad" onclick="redirectToPeruvian()">
@@ -108,21 +102,18 @@ title: Student Blog
                 Peruvian Toad
             </button>
         </form>
-
 <script>
             function redirectToPeruvian() {
                 window.location.href = '/FrontendRepo/frog/Peruvian';
             }
         </script>
  </div>
-
 <div style="margin-top: 50px;">
     <p>Here's a random quote:</p>
     <blockquote style="font-style: italic;">
         "In the frog's world, it's not easy being green." - Kermit the Frog
     </blockquote>
 </div>
-
 <!-- Frog Interaction -->
 <img src="images/Goliath Frog (Conraua goliath) .jpeg" alt="Frog" class="frog" id="frog" width= "150" onclick="frogJump()">
 <script>
@@ -156,7 +147,6 @@ title: Student Blog
         }
     }
 </style>
-
 <style>
     .frog {
         position: absolute;
@@ -174,7 +164,6 @@ title: Student Blog
         }
     }
 </style>
-
 <style>
     .jump-animation {
         animation: jump 1s ease-in-out infinite;
@@ -188,10 +177,6 @@ title: Student Blog
         }
     }
 </style>
-
-
-
-
 <style>
     @keyframes jump {
         0%, 100% {
@@ -204,30 +189,22 @@ title: Student Blog
 </style>
 <script>
         const numRaindrops = 200;
-
         for (let i = 0; i < numRaindrops; i++) {
             createRaindrop();
         }
-
         function createRaindrop() {
             const raindrop = document.createElement("div");
             raindrop.className = "raindrop";
             document.body.appendChild(raindrop);
-
             const startX = Math.random() * window.innerWidth;
             const startY = Math.random() * window.innerHeight;
-
             raindrop.style.left = startX + "px";
             raindrop.style.top = startY + "px";
-
             const animationDuration = Math.random() * 2 + 3;
             const animationDelay = Math.random() * 2;
-
             raindrop.style.width = Math.random() * 2 + 1 + "px";
             raindrop.style.height = Math.random() * 10 + 5 + "px";
-
             raindrop.style.animation = `fall ${animationDuration}s linear ${animationDelay}s infinite`;
-
             raindrop.addEventListener("animationiteration", () => {
                 const startX = Math.random() * window.innerWidth;
                 raindrop.style.left = startX + "px";
