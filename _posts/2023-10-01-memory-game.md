@@ -8,7 +8,6 @@ type: hacks
 courses: { compsci: {week: 6} }
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
     <title>Frog Memory Match Game</title>

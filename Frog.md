@@ -51,5 +51,4 @@ title: Frog
 </head>
 <body>
     <!-- Your HTML content -->
-
 <body id="frog">
