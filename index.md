@@ -235,5 +235,4 @@ title: Student Blog
         }
     </script>
 </body>
-</html>
 
