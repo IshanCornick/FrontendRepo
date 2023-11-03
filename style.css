@@ -45,11 +45,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    color:#881212;
   }
 
 /* Target links in the "my-catalog" catalog */
 #frog a {
-    color: #881212; /* Change the color to red */
+    color: #d1c7c7; /* Change the color to red */
     text-decoration: none; /* Remove underlines */
 }
 

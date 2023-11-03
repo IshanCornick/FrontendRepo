@@ -1,29 +1,25 @@
-// script.js
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Array of frog information
-    const frogInfo = [
-        { name: 'Frog 1', description: 'This is Frog 1. It is known for...', image: '/images/grenouille.png' },
-        { name: 'Frog 2', description: 'This is Frog 2. It is known for...', image: '/images/greening.png' },
-        { name: 'Frog 3', description: 'This is Frog 3. It is known for...', image: '/images/fathead.png' },
-        { name: 'Frog 4', description: 'This is Frog 4. It is known for...', image: '/images/yellow-toed.png' },
-        { name: 'Frog 5', description: 'This is Frog 5. It is known for...', image: '/images/yellow.png' },
-        { name: 'Frog 6', description: 'This is Frog 6. It is known for...', image: '/images/red-eyed-tree.png' },
-    ];
-
-    // Function to update Frog Information Panel
-    function updateFrogInfo(frogIndex) {
-        const frog = frogInfo[frogIndex];
-        const frogInfoPanel = document.querySelector('.Frog-info');
-        frogInfoPanel.innerHTML = `<h2>${frog.name}</h2><p>${frog.description}</p><img src="${frog.image}" alt="${frog.name}">`;
+document.addEventListener("DOMContentLoaded", function() {
+    // Generate raindrops
+    for (let i = 0; i < 100; i++) {
+        createRaindrop();
     }
 
-    // Event listeners for frog slots
-    const frogSlots = document.querySelectorAll('.Frog-slot');
-    frogSlots.forEach((frogSlot, index) => {
-        frogSlot.addEventListener('click', () => {
-            updateFrogInfo(index);
-        });
-    });
-});
+    // Function to create a raindrop
+    function createRaindrop() {
+        const raindrop = document.createElement("div");
+        raindrop.className = "raindrop";
+        raindrop.style.left = Math.random() * 100 + "vw";
+        raindrop.style.width = Math.random() * 4 + 1 + "px"; // Randomize width
+        raindrop.style.height = Math.random() * 20 + 10 + "px"; // Randomize height
+        raindrop.style.animationDuration = Math.random() * 2 + 1 + "s"; // Randomize animation duration
+        raindrop.style.opacity = Math.random() * 0.6 + 0.3; // Randomize opacity
+        raindrop.style.animationDelay = Math.random() + "s"; // Randomize delay
+        document.body.appendChild(raindrop);
 
+        // Remove raindrops after animation
+        raindrop.addEventListener("animationiteration", function() {
+            document.body.removeChild(raindrop);
+            createRaindrop();
+        });
+    }
+});
