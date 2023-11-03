@@ -1,19 +1,24 @@
-<html lang="en">
+---
+layout: default
+title: Student Blog
+---
+<html lang="en-US">
 <head>
-    <title>Frog Information</title>
+    <!-- Your existing meta tags and script tags -->
+    <link rel="stylesheet" type="text/css" href="style.css">  
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 10px;
+            background-image: url('https://images7.alphacoders.com/133/1334999.png');
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-color: #6BBE45;
+            color: #003300;
         }
         h1 {
-            color: #4CAF50;
+            color: #FDE74C;
         }
         .frog-button {
-            background-color: #4CAF50;
+            background-color: #6BBE45;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -23,48 +28,70 @@
             border-radius: 5px;
         }
         .frog-image {
-            max-width: 100%;
-            height: auto;
-            max-height: 50px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 850px; /* Adjust the width as needed */
+            height: contain; /* Maintain aspect ratio */
         }
+        /* Additional CSS styles for frog-related elements */
+        /* Rest of your CSS */
     </style>
 </head>
-<body>
+<body id="index">
+  <!-- CompSci content -->
+</body>
+    <!-- Your existing HTML content with frog-themed enhancements -->
 
-    <h1>Discover Amazing Frogs!</h1>
+<div>
+    <form action="/submit" method="post">
+        <button type="button" class="frog-button" id="plains-leopard-frog" onclick="redirectToPlains()">
+            <img src="https://www.sdherps.org/media/206.jpg" alt="Plains Leopard Frog" class="frog-image" border="0" />
+            <br>
+            Plains Leopard Frog
+        </button>
+    </form>
 
-    <div>
+    <script>
+        function redirectToPlains() {
+            window.location.href = '/FrontendRepo/frog/Leopard';
+        }
+    </script>
+</div>
 
-    </div>
+<div>
+    <form action="/submit" method="post">
+        <button type="button" class="frog-button" id="sumaco-horned-frog" onclick="redirectToSumaco()">
+            <img src="https://i.etsystatic.com/44827699/r/il/c12059/5155904904/il_fullxfull.5155904904_8pwi.jpg" alt="Sumaco Horned Frog" class="frog-image" border="0" />
+            <br>
+            Sumaco Horned Frog
+        </button>
+    </form>
 
-    <div>
-        <form action="/submit" method="post">
-            <button type="submit" class="frog-button">
-                <img src="https://inkart.net/wp-content/uploads/2020/12/ornate_horned_frog-1.jpg" alt="Ornate Horned Frog" class="frog-image" border="0" />
-                <br>
-                Ornate Horned Frog
-            </button>
-        </form>
-    </div>
+    <script>
+        function redirectToSumaco() {
+            window.location.href = '/FrontendRepo/frog/Sumaco';
+        }
+    </script>
+</div>
 
-    <div>
-        <form action="/submit" method="post">
-            <button type="submit" class="frog-button">
-                <img src="https://i.etsystatic.com/44827699/r/il/c12059/5155904904/il_fullxfull.5155904904_8pwi.jpg" alt="Sumaco Horned Frog" class="frog-image" border="0" />
-                <br>
-                Sumaco Horned Frog
-            </button>
-        </form>
-    </div>
+<div>
+    <form action="/submit" method="post">
+        <button type="button" class="frog-button" id="peruvian-toad" onclick="redirectToPeruvian()">
+            <img src="https://i.etsystatic.com/41972288/r/il/8267a5/5235525500/il_1588xN.5235525500_1nen.jpg" alt="Peruvian Toad" class="frog-image" border="0" />
+            <br>
+            Peruvian Toad
+        </button>
+    </form>
 
-    <div style="margin-top: 50px;">
+    <script>
+        function redirectToPeruvian() {
+            window.location.href = '/FrontendRepo/frog/Peruvian';
+        }
+    </script>
+</div>
+
+<div style="margin-top: 50px;">
         <p>Here's a random quote:</p>
         <blockquote style="font-style: italic;">
             "In the frog's world, it's not easy being green." - Kermit the Frog
         </blockquote>
     </div>
-
-</body>
 </html>
